@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rerlirou</title>
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/736x/34/62/e4/3462e425f38641e70a3d04c2bfb2b2e7.jpg);
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+        img{
+            width: 350px;
+            height: 350px;
+        }
+        section{
+            background-color: rgba(0, 255, 170, 0.543);
+            text-align: center;
+        }
+        button{
+            background-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+    <h2 id="txt">di mininu n è mais cabelim</h2>
+    <button onclick="mudar()">
+    <img src="https://blogmaniadebrincar.com.br/wp-content/uploads/2021/06/minions-08-bananas.png" id="ft"></img></button>
+    </section>
+
+    <script>
+        function mudar() {
+            let imagem = document.getElementById("ft");
+            imagem.src = "https://i.pinimg.com/originals/bc/79/85/bc7985f3a304b2cbb29748a447b50693.png";
+            document.getElementById("txt").innerText = "di minino virou lirou rer";
+        }
+    </script>
+</body>
+
+</html>
